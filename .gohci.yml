@@ -403,6 +403,11 @@ workers:
     - periph-smoketest
     - bcm283x
     - -quick
+  - cmd:
+    - periph-smoketest
+    - ftdi
+    - -type
+    - ft232h
 
 # Old MacBook Pro on 10.9.
 - name: mbp
@@ -517,6 +522,11 @@ workers:
     - i2c-list
   - cmd:
     - spi-list
+  - cmd:
+    - periph-smoketest
+    - ftdi
+    - -type
+    - ft232r
 
 # Laptop on Windows 10.
 - name: win10
@@ -631,3 +641,8 @@ workers:
     - i2c-list
   - cmd:
     - spi-list
+  - cmd:
+    - periph-smoketest
+    - ftdi
+    - -type
+    - ft232h
