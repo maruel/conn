@@ -4,9 +4,9 @@
 
 module periph.io/x/conn/v3
 
-go 1.22.6
+go 1.25.0
 
 // Warning: do not add any external dependencies here unless absolutely necessary.
 // This package should primarily depend on the standard library.
 
-require github.com/jonboulle/clockwork v0.4.0
+require github.com/jonboulle/clockwork v0.5.0
